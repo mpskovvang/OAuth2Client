@@ -131,6 +131,8 @@ extern NSString * const NXOAuth2ClientConnectionContextTokenRefresh;
  */
 - (void)authenticateWithAssertionType:(NSURL *)assertionType assertion:(NSString *)assertion;
 
+- (void)authenticateWithFacebook:(NSString *)facebookAccessToken;
+
 
 #pragma mark Public
 
